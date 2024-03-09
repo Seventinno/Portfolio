@@ -1,0 +1,22 @@
+{
+  "name": "paginapersonal",
+  "version": "1.0.0",
+  "description": "Portfolio Personal",
+  "main": "index.js",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seventinno/Portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Sebastian Vasquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seventinno/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Seventinno/Portfolio#readme"
+}
