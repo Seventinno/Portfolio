@@ -1,10 +1,10 @@
 {
   "name": "paginapersonal",
   "version": "1.0.0",
-  "description": "Portfolio Personal",
-  "main": "index.js",
+  "description": "Portfolio",
+  "main": "src/main.js",
   "scripts": {
-    "start": "http-server -c-1 -o index.html"
+    "build": "live-server --port=3000 --entry-file=portada.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Seventinno/Portfolio/issues"
   },
-  "homepage": "https://github.com/Seventinno/Portfolio#readme"
+  "homepage": "https://github.com/Seventinno/Portfolio#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
 }
